@@ -8,4 +8,9 @@ class Cocktail
     @steps = []
   end
 
+  def ingredients(*ingredients)
+    puts "Ingredients for #{name}:"
+    @ingredients << ingredients
+  end
+
 end
