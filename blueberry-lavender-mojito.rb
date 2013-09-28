@@ -37,3 +37,5 @@ puts blm.steps[4] = "5. Garnish with 3 blueberries on a pick. Serve with a prett
 puts # blank line
 
 puts blm.serve
+
+puts "Recipe retrieved from http://sweetpeaevents.net/"
